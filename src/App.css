@@ -1,0 +1,54 @@
+html,
+body,
+#root {
+	background-color: #f2f4f7;
+}
+
+.hero-section {
+	background-color: #4338ca;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	margin-bottom: 1.5rem;
+	color: white;
+	text-align: center;
+}
+
+.navbar-indigo {
+	background-color: #4338ca;
+	border-bottom: 1px solid #6366f1;
+}
+
+.custom-bg-gray {
+	background-color: #f3f4f6;
+}
+
+.custom-bg-indigo {
+	background-color: #e0e7ff;
+}
+
+.custom-btn-dark {
+	background-color: #5c5f5e;
+	border: none;
+}
+
+.custom-btn-dark:hover {
+	background-color: #374151;
+}
+
+.custom-btn-indigo {
+	background-color: #6366f1;
+	border: none;
+}
+
+.custom-btn-indigo:hover {
+	background-color: #4f46e5;
+}
+
+.submit-btn-indigo {
+	background-color: #4338ca;
+}
+
+.submit-btn-indigo:hover,
+.submit-btn-indigo:disabled {
+	background-color: #6366f1;
+}

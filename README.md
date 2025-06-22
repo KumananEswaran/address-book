@@ -1,12 +1,54 @@
-# React + Vite
+# 📒 Address Book App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React-based address book app with CRUD functionality. The backend is powered by Express and PostgreSQL, deployed on Vercel as serverless functions.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- Add, view, and manage contacts  
+- Responsive UI using React Bootstrap  
+- Backend API using Express + PostgreSQL
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** React, Bootstrap
+- **Backend:** Node.js, Express, PostgreSQL  
+- **Hosting:** Vercel (backend), localhost (frontend)
+
+---
+
+## ▶️ Getting Started
+
+### 1️⃣ Install Dependencies
+
+```bash
+npm install --legacy-peer-deps
+```
+
+> **Note:** `--legacy-peer-deps` is required due to a version mismatch between React 19 and some packages like `@emoji-mart/react`.
+
+### 2️⃣ Start the Development Server
+
+```bash
+npm run dev
+```
+
+> Open your browser and go to [http://localhost:5173](http://localhost:5173)
+
+---
+
+## 🔗 Backend
+
+- **Live API deployed on Vercel (serverless)**  
+  The backend API is deployed as serverless functions on Vercel.
+
+- **Backend Repository**  
+  [https://github.com/KumananEswaran/addressBook_backendAPI](https://github.com/KumananEswaran/addressBook_backendAPI)
+
+---
+
+
+
